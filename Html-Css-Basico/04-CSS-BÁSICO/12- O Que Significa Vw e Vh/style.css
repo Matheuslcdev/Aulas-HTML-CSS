@@ -1,0 +1,30 @@
+/* body{
+    margin: 0;
+}
+
+.primeiro-elemento{
+    width: 100vw;
+    background-color: aqua;
+}
+
+.segundo-elemento{
+    width: 100%;
+    background-color: blueviolet;
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 50vw;
+    height: 50vh;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 50vh;
+}

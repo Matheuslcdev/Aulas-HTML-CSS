@@ -1,0 +1,20 @@
+
+/* recomenda usar a maneira com menos codigo :#descricao-videogame, #descricao-pc{background-color: cyan;}*/
+#descricao-videogame{
+    background-color: cyan;
+}
+
+#descricao-pc{
+    background-color: cyan;
+
+}
+
+
+.descricao-produto{
+    color: crimson;
+    background-color: chocolate;
+}
+
+.promocao{
+    background-color: red
+}

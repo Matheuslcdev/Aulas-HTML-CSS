@@ -1,0 +1,13 @@
+/*Forma colocado cada leteral separada
+    Border-top: 30px;
+    Border-left: 30px;
+    Border-bottom: 30px;
+    Border-right: 30px;
+ 
+    A ordem das cores segue o sentido horario 
+
+*/
+.Border{
+    border: solid 10px;
+    border-color: royalblue pink green blue;  
+}

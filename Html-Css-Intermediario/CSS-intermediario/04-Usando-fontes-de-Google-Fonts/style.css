@@ -1,4 +1,7 @@
-p{
-    font-family: 'jacquard 12';
+.Jacquard-12{
+    font-family: 'Jacquard 12';
 }
 
+.Roboto{
+    font-family: Roboto;
+}

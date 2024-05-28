@@ -9,10 +9,10 @@ a:visited{
 }
 
 a:active{
-    color: purple;
+    color: orange;
 }
 
 a:hover{
-    background-color: red;
+    background-color: red; 
     color: white;
 }

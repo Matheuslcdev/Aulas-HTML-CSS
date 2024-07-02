@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Media queries</title>
-    <link rel="stylesheet" href="./src/css/style.css">
-</head>
-<body>
-     <header class="cabecalho">
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
       <h1 class="logo">Logo</h1>
       <nav>
         <ul>
@@ -36,19 +37,20 @@
             vitae modi. Quisquam dignissimos architecto tempore sit nam labore
             amet pariatur maxime.
           </p>
-
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum,
-            tempora tenetur praesentium recusandae ipsa itaque! Pariatur magnam
-            recusandae, illo tenetur quasi dolor dignissimos ea distinctio, eos
-            praesentium, perspiciatis laborum nostrum?
-          </p>
         </div>
 
         <div class="image">
-          <img src="./src/images/batman.jpg" alt="Filme do Batman" />
+          <picture>
+            <source
+              srcset="./src/images/batman-pequena.jpg"
+              media="
+            (max-width: 600px)"
+            />
+
+            <img src="./src/images/batman.jpg" alt="um filme do batman" />
+          </picture>
         </div>
       </section>
     </main>
-</body>
+  </body>
 </html>

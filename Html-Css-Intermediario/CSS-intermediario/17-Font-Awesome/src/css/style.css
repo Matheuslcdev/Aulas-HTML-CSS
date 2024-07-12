@@ -1,10 +1,6 @@
-.fa-laptop-code:hover{
-    background-color: aqua;
-    color: red;
-    font-size: 50px;
-}
 
-.fa-vihara{
-    background-color: blue;
+.fa-chess-knight{
     font-size: 50px;
+    color: aqua;
+    background-color: blueviolet;
 }
